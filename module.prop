@@ -1,0 +1,6 @@
+id=DolbySoundXperia
+name=Dolby Sound
+version=v1.0
+versionCode=1
+author=Saku
+description=Dolby Sound EQ ported from the Xperia 1 V (pdx234) that utilizes blobs from the Moto G52 (rhode).

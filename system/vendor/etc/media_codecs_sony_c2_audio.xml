@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+     Copyright 2021 Sony Corporation
+-->
+
+<Included>
+    <Decoders>
+        <MediaCodec name="c2.sony.mha1.decoder" type="audio/mha1">
+            <Limit name="channel-count" max="13" />
+            <Limit name="sample-rate" ranges="48000" />
+            <Limit name="bitrate" range="320000-1536000" />
+        </MediaCodec>
+        <MediaCodec name="c2.sony.mhm1.decoder" type="audio/mhm1">
+            <Limit name="channel-count" max="13" />
+            <Limit name="sample-rate" ranges="48000" />
+            <Limit name="bitrate" range="320000-1536000" />
+        </MediaCodec>
+    </Decoders>
+</Included>
